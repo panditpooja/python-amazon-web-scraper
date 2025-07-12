@@ -25,10 +25,13 @@
 This project uses Python and BeautifulSoup to scrape product details from Amazon and perform exploratory data analysis on the scraped data.
 
 ### 🔑 Key Features
-- Extract product names, prices, date, and timestamp.  
+- Extract product names, prices, ratings, and review counts.  
 - Save scraped data into a clean CSV file for analysis.  
 - Perform exploratory data analysis (EDA) on Amazon products.  
 - Handle user-agent headers to bypass basic anti-scraping measures.  
+
+💡 **Find Your User-Agent**  
+To avoid request blocking, include your browser's user-agent string in headers. You can find it here: [https://httpbin.org/get](https://httpbin.org/get)
 
 ---
 
@@ -49,11 +52,12 @@ pip install -r requirements.txt
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/panditpooja/amazon-web-scraper.git
+   git clone https://github.com/your-username/amazon-web-scraper.git
    cd amazon-web-scraper
    ```
 2. Open `Data Analysis_Amazon Web Scraping Project.ipynb` in Jupyter Notebook.  
 3. Run the notebook to scrape data and perform analysis.  
+4. Ensure you include your user-agent string in the headers to prevent request errors.
 
 ---
 
@@ -70,4 +74,4 @@ Master’s Student in Information Science (Machine Learning)
 The University of Arizona  
 
 [![GitHub](https://img.shields.io/badge/GitHub-panditpooja-black?logo=github)](https://github.com/panditpooja)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-pooja--pandit-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pooja-pandit-177978135/)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-pooja--pandit-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pooja-pandit-177978135/)
